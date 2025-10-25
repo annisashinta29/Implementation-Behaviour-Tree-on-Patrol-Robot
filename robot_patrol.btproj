@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="patrol_robot.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Action ID="avoid_obstacle" editable="true"/>
+        <Action ID="chase_intruder" editable="true"/>
+        <Condition ID="check_obstacle" editable="true"/>
+        <Action ID="go_charge" editable="true"/>
+        <Action ID="idle" editable="true"/>
+        <Condition ID="intruder_detected" editable="true"/>
+        <Condition ID="low_battery" editable="true"/>
+        <Action ID="patrol" editable="true"/>
+        <Condition ID="patrol_done" editable="true"/>
+    </TreeNodesModel>
+</root>
